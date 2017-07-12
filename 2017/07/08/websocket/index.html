@@ -3,14 +3,19 @@
 <head>
     <meta charset="utf-8">
     
-    <title>CainChao</title>
+    <title>告别WebView使用WebSocket采坑记 | CainChao</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta property="og:type" content="website">
-<meta property="og:title" content="CainChao">
-<meta property="og:url" content="http://yoursite.com/index.html">
+    <meta name="description" content="对WebSocket的认识 &amp;nbsp;&amp;nbsp;WebSocket一种在单个 TCP 连接上进行全双工通讯的协议。WebSocket通信协议于2011年被IETF定为标准RFC 6455，并被RFC7936所补充规范。WebSocket API也被W3C定为标准。WebSocket 使得客户端和服务器之间的数据交换变得更加简单，允许服务端主动向客户端推送数据。在 WebSocket API 中">
+<meta name="keywords" content="Android">
+<meta property="og:type" content="article">
+<meta property="og:title" content="告别WebView使用WebSocket采坑记">
+<meta property="og:url" content="http://yoursite.com/2017/07/08/websocket/index.html">
 <meta property="og:site_name" content="CainChao">
+<meta property="og:description" content="对WebSocket的认识 &amp;nbsp;&amp;nbsp;WebSocket一种在单个 TCP 连接上进行全双工通讯的协议。WebSocket通信协议于2011年被IETF定为标准RFC 6455，并被RFC7936所补充规范。WebSocket API也被W3C定为标准。WebSocket 使得客户端和服务器之间的数据交换变得更加简单，允许服务端主动向客户端推送数据。在 WebSocket API 中">
+<meta property="og:updated_time" content="2017-07-12T16:07:30.269Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="CainChao">
+<meta name="twitter:title" content="告别WebView使用WebSocket采坑记">
+<meta name="twitter:description" content="对WebSocket的认识 &amp;nbsp;&amp;nbsp;WebSocket一种在单个 TCP 连接上进行全双工通讯的协议。WebSocket通信协议于2011年被IETF定为标准RFC 6455，并被RFC7936所补充规范。WebSocket API也被W3C定为标准。WebSocket 使得客户端和服务器之间的数据交换变得更加简单，允许服务端主动向客户端推送数据。在 WebSocket API 中">
     
 
     
@@ -179,16 +184,15 @@
 </aside>
 
             
-            <section id="main">
-    <article id="post-websocket" class="article article-type-post" itemscope itemprop="blogPost">
+            <section id="main"><article id="post-websocket" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
         
             <header class="article-header">
                 
     
-        <h1 itemprop="name">
-            <a class="article-title" href="/2017/07/08/websocket/">告别WebView使用WebSocket采坑记</a>
+        <h1 class="article-title" itemprop="name">
+            告别WebView使用WebSocket采坑记
         </h1>
     
 
@@ -283,8 +287,20 @@ window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMin
         </footer>
     </div>
     
+        
+
+    
 </article>
 
+
+    
+    
+        <section id="comments">
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+</section>
+    
 
 </section>
             
@@ -375,11 +391,13 @@ window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMin
     <script>
     var disqus_config = function () {
         
-        this.page.identifier = 'undefined';
+            this.page.url = 'http://yoursite.com/2017/07/08/websocket/';
+        
+        this.page.identifier = 'websocket';
     };
     (function() { 
         var d = document, s = d.createElement('script');  
-        s.src = '//' + 'hexo-theme-icarus' + '.disqus.com/count.js';
+        s.src = '//' + 'hexo-theme-icarus' + '.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();
